@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "commonjs",
+    "jsx": "react-jsx",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "types": ["jest", "node"],
+    "moduleResolution": "node"
+  },
+  "include": ["src/**/*", "tests/**/*", "webpack.config.ts"],
+  "exclude": ["node_modules", "dist"]
+}
